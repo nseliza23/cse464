@@ -1,14 +1,18 @@
 '''public class Utils { 
  
-    // Returns the sum of two integers     public static int add(int a, int b) { 
-        return a + b; 
+    // Returns the sum of two integers    
+	 public static int add(int a, int b) { 
+        	return a + b; 
     } 
  
-    // Returns true if the number is even     public static boolean isEven(int n) {         return n % 2 == 0; 
+    // Returns true if the number is even    
+	 public static boolean isEven(int n) {        
+		 return n % 2 == 0; 
     } 
  
-    // Prints a greeting message     public static void printGreeting(String name) { 
-        System.out.println("Hello, " + name + "!"); 
+    // Prints a greeting message    
+	 public static void printGreeting(String name) { 
+        	System.out.println("Hi, " + name + "!"); 
     } 
 }''' 
 
